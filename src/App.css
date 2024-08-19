@@ -1,0 +1,33 @@
+body {
+    
+  background: rgb(185,234,255);
+  background: radial-gradient(circle, rgba(185,234,255,1) 0%, rgba(71,87,139,1) 0%, rgba(0,0,0,1) 83%);
+  }
+  
+  .Card img {
+    max-height: 250px;
+    object-fit: cover;
+  }
+  
+  .Card .btn-primary {
+    background-color: #007bff;
+    border: none;
+  }
+
+.card-fixed {
+  height: 100%;
+}
+
+.card-fixed .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-fixed .card-img-top {
+  height: 200px; /* Ajusta según el tamaño deseado */
+  object-fit: cover;
+}
+
+  
+  
